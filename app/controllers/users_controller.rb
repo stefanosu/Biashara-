@@ -26,7 +26,7 @@ end
 def update 
     user = User.find(params[:id]) 
     user.destroy 
-    redirect_to 
+    redirect_to user 
 end
 
 private 
