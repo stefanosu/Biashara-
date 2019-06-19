@@ -18,3 +18,4 @@ item8 = Item.create(category:'Sneakers')
 item9 = Item.create(category:'Sunglasses') 
 item10 = Item.create(category:'Hats') 
 
+
