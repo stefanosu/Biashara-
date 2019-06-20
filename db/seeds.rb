@@ -31,6 +31,7 @@ order4 = Order.create(user_id: user4.id, purchase: false)
 order5 = Order.create(user_id: user5.id, purchase: false)
 
 
+<<<<<<< HEAD
 
 item_order1 = ItemOrder.create(item_id: item1.id, order_id: order1.id)
 item_order2 = ItemOrder.create(item_id: item2.id, order_id: order2.id)
@@ -40,3 +41,5 @@ item_order6 = ItemOrder.create(item_id: item5.id  order_id: order5.id)
 # item_order8 = ItemOrder.create(item_id: item6.id)
 # item_order9 = ItemOrder.create(item_id: item7.id)
 # item_order10 = ItemOrder.create(item_id: item8.id)
+=======
+>>>>>>> Stefanos

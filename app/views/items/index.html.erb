@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Products</h1>
 
 <ul>
@@ -9,3 +10,10 @@
   </ul>
 
   <p><%= link_to "Add to Cart", "/item_orders/new" %></p>
+=======
+<h1>Show Items Here</h1> 
+
+<% @items.each do |item| %>
+<li><%= item.category %></li>
+<% end%>  
+>>>>>>> Stefanos

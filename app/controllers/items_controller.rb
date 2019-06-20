@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
+<<<<<<< HEAD
   def index
     @items = Items.all
   end
@@ -6,6 +7,18 @@ class ItemsController < ApplicationController
   def show
     @item = Item.find(params[:id])
   end
+=======
+    
+def index 
+    @items = Item.all 
+end 
+
+
+
+def show 
+    @item = Item.find(params[:id])
+end
+>>>>>>> Stefanos
 
 
 
