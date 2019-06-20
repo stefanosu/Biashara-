@@ -1,5 +1,7 @@
 {
   "name": "Biashara",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "startbootstrap-shop-homepage": "^4.2.1"
+  }
 }
