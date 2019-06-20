@@ -9,6 +9,7 @@ User.destroy_all
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+rand_num = rand(1..1000)
 user1 =  User.create(first_name: "Jackie", last_name: "Daniels", username: "Jackyyy334", password: "daniels123")
 user2 =  User.create(first_name: "George", last_name: "Carlton", username: "Georgy123", password: "carl456")
 user3 =  User.create(first_name: "Timmy", last_name: "Tuner", username: "TimmmyT03",password: "password")
@@ -24,14 +25,14 @@ item8 = Item.create(category:'Shoes', product: 'Nike Air Max')
 item9 = Item.create(category:'Accesories', product:'Michael Kors Sunglasses')
 item10 = Item.create(category: 'Accesories', product: 'Baseball Hat')
 
-order1 = Order.create(user_id: user1.id, purchase: false)
-order2 = Order.create(user_id: user2.id, purchase: false)
-order3 = Order.create(user_id: user3.id, purchase: false)
-order4 = Order.create(user_id: user4.id, purchase: false)
-order5 = Order.create(user_id: user5.id, purchase: false)
+order1 = Order.create(order_num: rand_num, user_id: user1.id, purchase: false)
+order2 = Order.create(order_num: rand_num, user_id: user2.id, purchase: false)
+order3 = Order.create(order_num: rand_num, user_id: user3.id, purchase: false)
+order4 = Order.create(order_num: rand_num, user_id: user4.id, purchase: false)
+order5 = Order.create(order_num: rand_num, user_id: user5.id, purchase: false)
 
 
-<<<<<<< HEAD
+
 
 item_order1 = ItemOrder.create(item_id: item1.id, order_id: order1.id)
 item_order2 = ItemOrder.create(item_id: item2.id, order_id: order2.id)
@@ -41,5 +42,3 @@ item_order6 = ItemOrder.create(item_id: item5.id  order_id: order5.id)
 # item_order8 = ItemOrder.create(item_id: item6.id)
 # item_order9 = ItemOrder.create(item_id: item7.id)
 # item_order10 = ItemOrder.create(item_id: item8.id)
-=======
->>>>>>> Stefanos

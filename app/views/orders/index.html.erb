@@ -1,0 +1,10 @@
+<h2>Purchases</h2>
+
+<ul>
+<%= @orders.each do |my_order| %>
+<li>
+Order Number: <%=link_to my_order.order_num, my_order %>
+</li>
+</ul>
+
+<% end %>

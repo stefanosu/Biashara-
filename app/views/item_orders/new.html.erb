@@ -5,3 +5,5 @@
 <%= add.collection_select :item_id, @items, :id, :product %>
 <%= add.submit "Purchase" %>
 <% end %>
+
+<%= button_to "Delete #{@item.product}", "/item_orders/#{@item_order.id}", method: :delete %>
