@@ -1,9 +1,10 @@
 <h2>Shopping Cart</h2>
 
 <ul>
-<% @item_order.items.each do |an_item| %>
+<% @item_orders.items.each do |item| %>
 <li>
-<%= link_to an_item.product, an_item %>
+<%= link_to item.product, item %>
 </li>
 </ul>
-<%= end %>
+<%end %>
+

@@ -16,7 +16,7 @@ class ItemOrdersController < ApplicationController
   end
 
   def create
-  item_order= ItemOrder.find(params[:id])
+  item_order = ItemOrder.find(params[:id])
   item_order.update(user_params)
   redirect_to item_order
 
