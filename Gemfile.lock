@@ -113,14 +113,10 @@ GEM
       mini_portile2 (~> 2.4.0)
     popper_js (1.14.5)
     public_suffix (3.1.0)
- dependabot/bundler/puma-3.12.3
-   dependabot/bundler/puma-3.12.3
-    puma (3.12.3)
+    puma (>= 3.12.4) 
     rack (2.2.2)
     puma (3.12.2)
-dependabot/bundler/rake-12.3.3
     puma (>= 3.12.4)
- master
     rack (2.2.2)
     puma (>= 3.12.4)
     rack (2.0.8)
